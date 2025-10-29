@@ -1,0 +1,20 @@
+{
+  "name": "Иван",
+  "age": 30,
+  "isActive": true,
+  "address": {
+    "city": "Москва",
+    "street": "Тверская"
+  },
+  "hobbies": ["чтение", "спорт", "музыка"],
+  "projects": [
+    {
+      "name": "Проект 1",
+      "status": "completed"
+    },
+    {
+      "name": "Проект 2", 
+      "status": "in progress"
+    }
+  ]
+}
