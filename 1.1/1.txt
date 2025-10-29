@@ -3,12 +3,13 @@
 файл один 
 строк четыре
 asd
-
+один
 asd
 файл 
 четыре
 hi
 hi
+hit
 hi
 hi
-hi
+temp

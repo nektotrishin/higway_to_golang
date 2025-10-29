@@ -73,7 +73,7 @@ func readFile(filePath string) (string, error) {
 // countWords подсчитывает количество уникальных слов в тексте
 func countWords(text string) map[string]int {
 	// Приводим к нижнему регистру и удаляем знаки препинания
-	reg := regexp.MustCompile(`[^\w\s]`)
+	reg := regexp.MustCompile(`[^\p{L}0-9_\s]`)
 	cleanText := reg.ReplaceAllString(strings.ToLower(text), "")
 
 	// Разбиваем на слова
